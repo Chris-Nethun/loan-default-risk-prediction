@@ -78,9 +78,8 @@ Feature Importance
 loan-default-risk-prediction/
 │
 ├── README.md
-├── loan_default_model.ipynb
+├── loan_default_model.py
 ├── requirements.txt
-├── data_description.txt
 └── images/
     ├── roc_curve.png
     └── feature_importance.png
