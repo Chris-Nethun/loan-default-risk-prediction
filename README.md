@@ -31,9 +31,11 @@ To improve early-stage default detection by:
 - Threshold tuning for business optimization
 
 ##  Model Performance
-Metric	Value
-ROC-AUC	0.856
-PR-AUC	0.760
+
+| Metric  | Value |
+|---------|--------|
+| ROC-AUC | 0.856 |
+| PR-AUC  | 0.760 |
 
 At default threshold (0.50):
 
@@ -44,6 +46,10 @@ After threshold optimization (0.35):
 - Recall improved to 78%
 
 Significant reduction in undetected defaulters
+
+### Business Impact
+
+By lowering the classification threshold from 0.50 to 0.35, default detection improved from 58% to 78%, reducing undetected high-risk applicants significantly.
 
 ##  Visual Results
 - ROC Curve
@@ -86,7 +92,7 @@ loan-default-risk-prediction/
 ```
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Compare with XGBoost
 
