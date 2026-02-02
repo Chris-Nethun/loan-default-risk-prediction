@@ -83,7 +83,6 @@ loan-default-risk-prediction/
 ├── data_description.txt
 └── images/
     ├── roc_curve.png
-    ├── pr_curve.png
     └── feature_importance.png
 ```
 
